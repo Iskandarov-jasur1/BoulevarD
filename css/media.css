@@ -1,0 +1,157 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .main__img, .wrapper__img {
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .airpods__img, .airpods__desc {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .product__card {
+        max-width: 210px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header__title {
+        font-size: 80px;
+    }
+
+    .main__content, .wrapper, .airpods {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__img, .wrapper__img, .airpods__img {
+        order: -1;
+    }
+    
+    .desc {
+        max-width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .desc_margin {
+        margin-left: 0;
+    }
+
+    .airpods__desc {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .airpods__line {
+        display: none;
+    }
+
+    .airpods__desc_right {
+        margin-bottom: 15px;
+    }
+
+    .product__content {
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+
+    .product__card {
+        max-width: 255px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header__title {
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+
+    .header__link {
+        font-size: 15px;
+    }
+
+    .main__img, .wrapper__img {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .airpods__img {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .product__content {
+        margin-top: 50px;
+    }
+
+    .product__card {
+        max-width: 210px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .icon__link_my {
+        font-size: 30px;
+        margin-left: 25px;
+    }
+
+}
+
+@media (max-width: 520px) {
+    .nav__content {
+        flex-direction: column;
+    }
+    
+    .icon {
+        margin: 0;
+    }
+
+    .icon__link {
+        margin: 0 10px;
+    }
+
+    .menu__link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .header__title {
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+
+    .main__img, .wrapper__img {
+        max-width: 300px;
+        width: 100%;
+    }
+    
+    .desc,  .airpods__desc{
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .product__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+}
